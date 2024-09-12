@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [Reactive Microservices](https://github.com/ninisbeth/MS-Reactivo-Nombres)
 
-Test from your local with Postman Reactive Client :
+Test from your local with Postman Reactive Client:
 curl --location 'http://localhost:8080/names' \
 --header 'Accept: text/event-stream'
 
