@@ -10,6 +10,9 @@ import reactor.core.publisher.Flux;
 
 @RestController
 public class NamesController {
+	//Para probar la API:
+	//curl --location 'http://localhost:8080/names' \
+	//--header 'Accept: text/event-stream'
 	@GetMapping(value="names")
 	//Flujo de cadenas de caracteres
 	public Flux<String> getNames(){
@@ -24,7 +27,7 @@ public class NamesController {
 		//Se crea el objeto Flux a partir de la lista:
 		return Flux.fromIterable(names) //ya acá tenemos un String de Tipo Flux
 										//o un Flux de String
-				.delayElements(Duration.ofSeconds(2)); //No devuelve el mismo
+				.delayElements(Duration.ofSeconds(2));//No devuelve el mismo
 													  //flujo de String pero
 													  //aplicando cierto retardo
 													  //entre cada elemento														
