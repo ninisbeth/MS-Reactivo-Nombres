@@ -3,6 +3,10 @@
 
 - 🔭 I’m currently working on [Reactive Microservices](https://github.com/ninisbeth/MS-Reactivo-Nombres)
 
+Test in Postman:
+curl --location 'http://localhost:8080/names' \
+--header 'Accept: text/event-stream'
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/ninisbeth-segovia/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/ninisbeth-segovia/" height="30" width="40" /></a>
