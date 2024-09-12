@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ninisbeth</h1>
 <h3 align="center">A passionate backend developer from Perú</h3>
 
-- 🔭 I’m currently working on [Reactives Microservicios](https://github.com/ninisbeth/MS-Reactivo-Nombres)
+- 🔭 I’m currently working on [Reactive Microservices](https://github.com/ninisbeth/MS-Reactivo-Nombres)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
